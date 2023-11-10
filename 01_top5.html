@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            /* propertyName: value; */
+            border: 4px solid salmon;
+            background-color: beige;
+
+            width: 300px; /* genişlik */ 
+            height: 200px; /* yükseklik */
+
+            color: rgb(94, 125, 8); /* Yazı Rengi */
+        }
+
+       /* tag (etiket) seçici */
+        main{
+            color: green;
+        }
+        p{
+            color: chocolate;
+        }
+
+        a{
+            color: inherit;
+        }
+        /* Puanı:3 */
+        /* cascading tag selection */
+        body footer p{
+            color: chartreuse;
+        }
+         /* Puanı:2 */
+        footer p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <header>
+        HEADER
+    </header>
+    <main>
+        <span>Span içindeki yazı...</span>
+        <a href="#">Bu bir linktir.</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magni maxime ad error, atque possimus ab porro ex consequatur dicta minima, sapiente quia, facere exercitationem quod beatae consequuntur accusamus rem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, incidunt! Hic porro illum maxime quidem, eligendi velit ex quod eius voluptas sed modi explicabo libero dolor neque doloremque sunt accusamus.</p>
+        
+    </main>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa sint perspiciatis. Sed ipsum harum sunt. Sapiente ducimus veniam suscipit?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, reiciendis!</p>
+    </footer>
+</body>
+</html>

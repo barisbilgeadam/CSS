@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            font-family:'Agbalumo',monospace ;
+            font-size: 36px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            
+            /* 1. yazım 4 taraftan eşit margin için. */
+            margin: 50px;
+
+            /* 2. yazım: Her taraf için ayrı margin vermek için */
+            margin-top: 50px;
+            margin-right: 20px;
+            margin-bottom: 150px;
+            margin-left: 50px;
+            /*      T      R     B    L  */
+            margin: 50px 20px 150px 50px;
+            /*      T-B   R-L */
+            margin: 20px 50px;
+            /*       T   R-L   B   */
+            margin: 20px 30px 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BİR BAŞLIK EKLEME</h1>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>
